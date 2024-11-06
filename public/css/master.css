@@ -1,0 +1,67 @@
+body {
+  background: #000 url('../images/frozen-bubble.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Delius", cursive;
+}
+.wrapper{
+  width: 100%;
+  margin-left: auto;
+  margin-right:auto;
+  background-color: #fff;
+  padding: 20px 40px;
+  min-height: 100vh;
+  /* position: relative; */
+}
+/* footer{
+  position: relative;
+  bottom: 0;
+ 
+}  */
+p{margin-bottom:1rem;}
+
+
+.dunkel {
+	background-color: rgba(25, 27, 29, 0.8) !important;
+	color: #fff !important;
+}
+
+.text-yellow{color:yellow;}
+
+.fw-xl{
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.button-yellow{
+  display: inline-block;
+  background: yellow;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin:1em 0;
+  color:#000;
+  font-size: 1.5rem;
+text-decoration: none;
+}
+
+.bg-brown{background-color: #d8b79c;}
+.bg-blue{background-color: #047cb9;}
+.bg-grey{background-color: #d5d9db;}
+.text-blue{color: #047cb9;}
+.text-center{text-align: center;}
+.absolute{position: absolute;}
+.center{margin-left: auto; margin-right: auto; display: block;}
+
+.info{
+  flex-grow: 1;
+  border: 1px solid #dc4230;
+  border-radius:50px;
+  font-size: 1.3em;
+  background: linear-gradient(#fff,#dc4230);
+}
+
+td,th{
+  padding:20px;
+  border:2px solid #047cb9;
+}
